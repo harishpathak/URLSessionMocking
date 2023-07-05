@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>URLSessionMocking.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6806B1D42A53E08B00BCFA1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6806B1EA2A53E08E00BCFA1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6806B1F42A53E08E00BCFA1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
