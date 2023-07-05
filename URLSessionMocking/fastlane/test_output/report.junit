@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='URLSessionMockingTests.xctest' tests='3' failures='0'>
   <testsuite name='URLSessionMockingTests.APIClientTestUsingMockURLProtocol' tests='2' failures='0'>
-    <testcase classname='URLSessionMockingTests.APIClientTestUsingMockURLProtocol' name='test_api_using_mocked_url_protocol_completion' time='0.085'/>
-    <testcase classname='URLSessionMockingTests.APIClientTestUsingMockURLProtocol' name='test_api_using_mocked_url_protocol' time='0.011'/>
+    <testcase classname='URLSessionMockingTests.APIClientTestUsingMockURLProtocol' name='test_api_using_mocked_url_protocol_completion' time='0.084'/>
+    <testcase classname='URLSessionMockingTests.APIClientTestUsingMockURLProtocol' name='test_api_using_mocked_url_protocol' time='0.014'/>
   </testsuite>
   <testsuite name='URLSessionMockingTests.APIClientTestUsingMockURLSession' tests='1' failures='0'>
-    <testcase classname='URLSessionMockingTests.APIClientTestUsingMockURLSession' name='test_api_using_dependency_injected_mock_url_session' time='0.003'/>
+    <testcase classname='URLSessionMockingTests.APIClientTestUsingMockURLSession' name='test_api_using_dependency_injected_mock_url_session' time='0.005'/>
   </testsuite>
 </testsuites>

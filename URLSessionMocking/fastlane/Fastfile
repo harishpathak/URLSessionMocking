@@ -19,7 +19,7 @@ platform :ios do
   desc "this lane build and run tests"
   lane :build_and_test do
     # add actions here: https://docs.fastlane.tools/actions
-    run_tests(workspace: "URLSessionMocking.xcodeproj",
+    run_tests(workspace: "URLSessionMocking.xcworkspace",
               devices: ["iPhone 14 Pro"],
               scheme: "MyTests")
   end
