@@ -21,6 +21,6 @@ platform :ios do
     # add actions here: https://docs.fastlane.tools/actions
     run_tests(workspace: "URLSessionMocking.xcodeproj",
               devices: ["iPhone 14 Pro"],
-              scheme: "Tests")
+              scheme: "MyTests")
   end
 end

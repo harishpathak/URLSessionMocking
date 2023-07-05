@@ -29,24 +29,12 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
+            skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6806B1EA2A53E08E00BCFA1E"
                BuildableName = "URLSessionMockingTests.xctest"
                BlueprintName = "URLSessionMockingTests"
-               ReferencedContainer = "container:URLSessionMocking.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "YES"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6806B1F42A53E08E00BCFA1E"
-               BuildableName = "URLSessionMockingUITests.xctest"
-               BlueprintName = "URLSessionMockingUITests"
                ReferencedContainer = "container:URLSessionMocking.xcodeproj">
             </BuildableReference>
          </TestableReference>

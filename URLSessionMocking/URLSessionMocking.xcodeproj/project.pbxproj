@@ -13,8 +13,6 @@
 		6806B1E02A53E08B00BCFA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6806B1DE2A53E08B00BCFA1E /* Main.storyboard */; };
 		6806B1E22A53E08E00BCFA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6806B1E12A53E08E00BCFA1E /* Assets.xcassets */; };
 		6806B1E52A53E08E00BCFA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6806B1E32A53E08E00BCFA1E /* LaunchScreen.storyboard */; };
-		6806B1FA2A53E08E00BCFA1E /* URLSessionMockingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B1F92A53E08E00BCFA1E /* URLSessionMockingUITests.swift */; };
-		6806B1FC2A53E08E00BCFA1E /* URLSessionMockingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B1FB2A53E08E00BCFA1E /* URLSessionMockingUITestsLaunchTests.swift */; };
 		6806B2092A53E0AC00BCFA1E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B2082A53E0AC00BCFA1E /* HTTPClient.swift */; };
 		6806B20C2A53E14200BCFA1E /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B20B2A53E14200BCFA1E /* MockURLSession.swift */; };
 		6806B20E2A53E18600BCFA1E /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B20D2A53E18600BCFA1E /* MockURLProtocol.swift */; };
@@ -50,8 +48,6 @@
 		6806B1E62A53E08E00BCFA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6806B1EB2A53E08E00BCFA1E /* URLSessionMockingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSessionMockingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6806B1F52A53E08E00BCFA1E /* URLSessionMockingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSessionMockingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6806B1F92A53E08E00BCFA1E /* URLSessionMockingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMockingUITests.swift; sourceTree = "<group>"; };
-		6806B1FB2A53E08E00BCFA1E /* URLSessionMockingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMockingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6806B2082A53E0AC00BCFA1E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		6806B20B2A53E14200BCFA1E /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 		6806B20D2A53E18600BCFA1E /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
@@ -89,7 +85,6 @@
 			children = (
 				6806B1D72A53E08B00BCFA1E /* URLSessionMocking */,
 				6806B1EE2A53E08E00BCFA1E /* URLSessionMockingTests */,
-				6806B1F82A53E08E00BCFA1E /* URLSessionMockingUITests */,
 				6806B1D62A53E08B00BCFA1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,15 +121,6 @@
 				6806B20A2A53E12900BCFA1E /* Mocks */,
 			);
 			path = URLSessionMockingTests;
-			sourceTree = "<group>";
-		};
-		6806B1F82A53E08E00BCFA1E /* URLSessionMockingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6806B1F92A53E08E00BCFA1E /* URLSessionMockingUITests.swift */,
-				6806B1FB2A53E08E00BCFA1E /* URLSessionMockingUITestsLaunchTests.swift */,
-			);
-			path = URLSessionMockingUITests;
 			sourceTree = "<group>";
 		};
 		6806B20A2A53E12900BCFA1E /* Mocks */ = {
@@ -308,8 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6806B1FC2A53E08E00BCFA1E /* URLSessionMockingUITestsLaunchTests.swift in Sources */,
-				6806B1FA2A53E08E00BCFA1E /* URLSessionMockingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z984D62GH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = URLSessionMocking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -496,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Z984D62GH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = URLSessionMocking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
