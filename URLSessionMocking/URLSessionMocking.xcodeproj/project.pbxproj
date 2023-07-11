@@ -19,6 +19,9 @@
 		6806B20E2A53E18600BCFA1E /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B20D2A53E18600BCFA1E /* MockURLProtocol.swift */; };
 		6806B2112A53E1CE00BCFA1E /* APIClientTestUsingMockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B2102A53E1CE00BCFA1E /* APIClientTestUsingMockURLSession.swift */; };
 		6806B2132A53E1DB00BCFA1E /* APIClientTestUsingMockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B2122A53E1DB00BCFA1E /* APIClientTestUsingMockURLProtocol.swift */; };
+		68F0ECA32A5D6471009082E7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0ECA22A5D6471009082E7 /* ViewModel.swift */; };
+		68F0ECA62A5D665E009082E7 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0ECA42A5D665E009082E7 /* NameCell.swift */; };
+		68F0ECA72A5D665E009082E7 /* NameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F0ECA52A5D665E009082E7 /* NameCell.xib */; };
 		92BF4548B49C8A7393695A64 /* Pods_URLSessionMocking_URLSessionMockingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7C670837F998C3648EE6D0 /* Pods_URLSessionMocking_URLSessionMockingUITests.framework */; };
 		D8837CFC91B8C93AFF5C4928 /* Pods_URLSessionMocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D596348E623FB2E64924A2A /* Pods_URLSessionMocking.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,9 @@
 		6806B20D2A53E18600BCFA1E /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		6806B2102A53E1CE00BCFA1E /* APIClientTestUsingMockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTestUsingMockURLSession.swift; sourceTree = "<group>"; };
 		6806B2122A53E1DB00BCFA1E /* APIClientTestUsingMockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTestUsingMockURLProtocol.swift; sourceTree = "<group>"; };
+		68F0ECA22A5D6471009082E7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		68F0ECA42A5D665E009082E7 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		68F0ECA52A5D665E009082E7 /* NameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameCell.xib; sourceTree = "<group>"; };
 		6D596348E623FB2E64924A2A /* Pods_URLSessionMocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLSessionMocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		787C39E857AFB644D6E5C70F /* Pods-URLSessionMocking-URLSessionMockingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLSessionMocking-URLSessionMockingUITests.release.xcconfig"; path = "Target Support Files/Pods-URLSessionMocking-URLSessionMockingUITests/Pods-URLSessionMocking-URLSessionMockingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E683C23B185681D0A53F5AD /* Pods-URLSessionMocking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLSessionMocking.release.xcconfig"; path = "Target Support Files/Pods-URLSessionMocking/Pods-URLSessionMocking.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +137,10 @@
 			children = (
 				6806B1D82A53E08B00BCFA1E /* AppDelegate.swift */,
 				6806B1DA2A53E08B00BCFA1E /* SceneDelegate.swift */,
+				68F0ECA22A5D6471009082E7 /* ViewModel.swift */,
 				6806B1DC2A53E08B00BCFA1E /* ViewController.swift */,
+				68F0ECA42A5D665E009082E7 /* NameCell.swift */,
+				68F0ECA52A5D665E009082E7 /* NameCell.xib */,
 				6806B1DE2A53E08B00BCFA1E /* Main.storyboard */,
 				6806B1E12A53E08E00BCFA1E /* Assets.xcassets */,
 				6806B1E32A53E08E00BCFA1E /* LaunchScreen.storyboard */,
@@ -178,7 +187,6 @@
 				50583FF28ED7EA20B8FCA2DD /* Pods-URLSessionMockingTests.debug.xcconfig */,
 				43672DF099940E14B27A36A5 /* Pods-URLSessionMockingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -291,6 +299,7 @@
 			files = (
 				6806B1E52A53E08E00BCFA1E /* LaunchScreen.storyboard in Resources */,
 				6806B1E22A53E08E00BCFA1E /* Assets.xcassets in Resources */,
+				68F0ECA72A5D665E009082E7 /* NameCell.xib in Resources */,
 				6806B1E02A53E08B00BCFA1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F0ECA62A5D665E009082E7 /* NameCell.swift in Sources */,
+				68F0ECA32A5D6471009082E7 /* ViewModel.swift in Sources */,
 				6806B1DD2A53E08B00BCFA1E /* ViewController.swift in Sources */,
 				6806B1D92A53E08B00BCFA1E /* AppDelegate.swift in Sources */,
 				6806B2092A53E0AC00BCFA1E /* HTTPClient.swift in Sources */,
