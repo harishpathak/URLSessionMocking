@@ -1,5 +1,9 @@
 name: iOS starter workflow
 
+defaults:
+ run:
+  working-directory: ./URLSessionMocking
+
 on:
   push:
     branches: [ "main" ]
