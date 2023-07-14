@@ -11,6 +11,7 @@ import Combine
 class ViewController: UIViewController {
     var bag: Set<AnyCancellable> = []
     @IBOutlet weak var table: UITableView!
+    @IBOutlet weak var messageView: CustomMessageView!
     var viewModel = ViewModel()
 
     @IBOutlet weak var loader: UIActivityIndicatorView!
@@ -29,6 +30,22 @@ class ViewController: UIViewController {
         table.dataSource = self
         table.register(UINib(nibName: "NameCell", bundle: nil), forCellReuseIdentifier: "NameCell")
         loader.hidesWhenStopped = true
+        
+        // Custom View loaded from storyboard
+        self.messageView.setMessage(message: "This view is loaded from storyboard")
+        
+        // Custom View loaded programatically
+        let messageView2 = CustomMessageView(frame: CGRect(x: 0, y: 600, width: 300, height: 80))
+        messageView2.setMessage(message: "This view is loaded programatically")
+        self.view.addSubview(messageView2)
+        
+        //Serial Queues
+        let serialQueue = DispatchQueue(label: "serial queue")
+        let mainQueue = DispatchQueue.main
+        // Concurrent Queues
+        let concurrentGlobalQueue = DispatchQueue.global(qos: .userInitiated)
+        let concurrentQueue = DispatchQueue(label: "concurrent queue", attributes: .concurrent)
+        
     }
     
     func setupBindings() {

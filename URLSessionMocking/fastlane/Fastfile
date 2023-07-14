@@ -23,4 +23,11 @@ platform :ios do
               devices: ["iPhone 14 Pro"],
               scheme: "MyTests")
   end
+  desc "this lane build and run tests"
+  lane :calculate_coverage do
+    # add actions here: https://docs.fastlane.tools/actions
+    xcov(workspace: "URLSessionMocking.xcworkspace",
+         scheme: "MyTests",
+         output_directory: "./Reports")
+  end
 end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w4C-66-nKe">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -17,31 +17,72 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="23w-jL-aTk">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="679"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" id="f88-6z-8Q8">
                                 <rect key="frame" x="0.0" y="404" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48o-Xc-uf8" customClass="CustomMessageView" customModule="URLSessionMocking" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="738" width="393" height="80"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="BuN-2g-Uc9"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="23w-jL-aTk" secondAttribute="bottom" id="8bl-FB-DTJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="23w-jL-aTk" secondAttribute="trailing" id="AOZ-mz-aDS"/>
+                            <constraint firstItem="48o-Xc-uf8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IiD-K4-Y3i"/>
                             <constraint firstItem="23w-jL-aTk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UHa-4V-Fux"/>
                             <constraint firstItem="23w-jL-aTk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="r2e-g5-bsf"/>
+                            <constraint firstItem="48o-Xc-uf8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tuS-xo-IxB"/>
+                            <constraint firstItem="48o-Xc-uf8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vBq-qm-QQR"/>
+                            <constraint firstItem="48o-Xc-uf8" firstAttribute="top" secondItem="23w-jL-aTk" secondAttribute="bottom" id="vYz-P2-XUw"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="loader" destination="f88-6z-8Q8" id="FKp-kS-V6w"/>
+                        <outlet property="messageView" destination="48o-Xc-uf8" id="A0N-WB-nzX"/>
                         <outlet property="table" destination="23w-jL-aTk" id="gob-nQ-L1y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="98" y="4"/>
+            <point key="canvasLocation" x="-259" y="4"/>
+        </scene>
+        <!--Complex Collection View Controller-->
+        <scene sceneID="cw6-Oe-BQE">
+            <objects>
+                <viewController id="w4C-66-nKe" customClass="ComplexCollectionViewController" customModule="URLSessionMocking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Ae-xe-o88">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xd0-gh-me6">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2pO-0b-JYk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2pO-0b-JYk" firstAttribute="trailing" secondItem="Xd0-gh-me6" secondAttribute="trailing" id="IBM-4L-Fka"/>
+                            <constraint firstItem="Xd0-gh-me6" firstAttribute="leading" secondItem="2pO-0b-JYk" secondAttribute="leading" id="isG-L0-zu8"/>
+                            <constraint firstItem="Xd0-gh-me6" firstAttribute="top" secondItem="2pO-0b-JYk" secondAttribute="top" id="sQ6-nz-oP8"/>
+                            <constraint firstItem="2pO-0b-JYk" firstAttribute="bottom" secondItem="Xd0-gh-me6" secondAttribute="bottom" id="wre-dp-Drp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="Xd0-gh-me6" id="2cz-4l-RPU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ux-Fb-ssE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="4"/>
         </scene>
     </scenes>
     <resources>

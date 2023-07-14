@@ -19,6 +19,15 @@
 		6806B20E2A53E18600BCFA1E /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B20D2A53E18600BCFA1E /* MockURLProtocol.swift */; };
 		6806B2112A53E1CE00BCFA1E /* APIClientTestUsingMockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B2102A53E1CE00BCFA1E /* APIClientTestUsingMockURLSession.swift */; };
 		6806B2132A53E1DB00BCFA1E /* APIClientTestUsingMockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806B2122A53E1DB00BCFA1E /* APIClientTestUsingMockURLProtocol.swift */; };
+		6810EE852A5E93920075E0FF /* CustomMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810EE842A5E93920075E0FF /* CustomMessageView.swift */; };
+		6810EE872A5E93A10075E0FF /* CustomMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6810EE862A5E93A10075E0FF /* CustomMessageView.xib */; };
+		6810EE8B2A5EC42D0075E0FF /* ComplexCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810EE8A2A5EC42D0075E0FF /* ComplexCollectionViewController.swift */; };
+		6810EE8E2A5EC56C0075E0FF /* FirstSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810EE8C2A5EC56C0075E0FF /* FirstSectionCell.swift */; };
+		6810EE8F2A5EC56C0075E0FF /* FirstSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6810EE8D2A5EC56C0075E0FF /* FirstSectionCell.xib */; };
+		6810EE922A5EC5860075E0FF /* SecondSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810EE902A5EC5860075E0FF /* SecondSectionCell.swift */; };
+		6810EE932A5EC5860075E0FF /* SecondSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6810EE912A5EC5860075E0FF /* SecondSectionCell.xib */; };
+		6810EE962A5EC5920075E0FF /* ThirdSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810EE942A5EC5920075E0FF /* ThirdSectionCell.swift */; };
+		6810EE972A5EC5920075E0FF /* ThirdSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6810EE952A5EC5920075E0FF /* ThirdSectionCell.xib */; };
 		68F0ECA32A5D6471009082E7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0ECA22A5D6471009082E7 /* ViewModel.swift */; };
 		68F0ECA62A5D665E009082E7 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0ECA42A5D665E009082E7 /* NameCell.swift */; };
 		68F0ECA72A5D665E009082E7 /* NameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F0ECA52A5D665E009082E7 /* NameCell.xib */; };
@@ -61,6 +70,15 @@
 		6806B20D2A53E18600BCFA1E /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		6806B2102A53E1CE00BCFA1E /* APIClientTestUsingMockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTestUsingMockURLSession.swift; sourceTree = "<group>"; };
 		6806B2122A53E1DB00BCFA1E /* APIClientTestUsingMockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTestUsingMockURLProtocol.swift; sourceTree = "<group>"; };
+		6810EE842A5E93920075E0FF /* CustomMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageView.swift; sourceTree = "<group>"; };
+		6810EE862A5E93A10075E0FF /* CustomMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessageView.xib; sourceTree = "<group>"; };
+		6810EE8A2A5EC42D0075E0FF /* ComplexCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexCollectionViewController.swift; sourceTree = "<group>"; };
+		6810EE8C2A5EC56C0075E0FF /* FirstSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSectionCell.swift; sourceTree = "<group>"; };
+		6810EE8D2A5EC56C0075E0FF /* FirstSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstSectionCell.xib; sourceTree = "<group>"; };
+		6810EE902A5EC5860075E0FF /* SecondSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSectionCell.swift; sourceTree = "<group>"; };
+		6810EE912A5EC5860075E0FF /* SecondSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondSectionCell.xib; sourceTree = "<group>"; };
+		6810EE942A5EC5920075E0FF /* ThirdSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdSectionCell.swift; sourceTree = "<group>"; };
+		6810EE952A5EC5920075E0FF /* ThirdSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdSectionCell.xib; sourceTree = "<group>"; };
 		68F0ECA22A5D6471009082E7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		68F0ECA42A5D665E009082E7 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
 		68F0ECA52A5D665E009082E7 /* NameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameCell.xib; sourceTree = "<group>"; };
@@ -135,12 +153,10 @@
 		6806B1D72A53E08B00BCFA1E /* URLSessionMocking */ = {
 			isa = PBXGroup;
 			children = (
+				6810EE892A5EC3FB0075E0FF /* ComplexCollectionView */,
 				6806B1D82A53E08B00BCFA1E /* AppDelegate.swift */,
 				6806B1DA2A53E08B00BCFA1E /* SceneDelegate.swift */,
-				68F0ECA22A5D6471009082E7 /* ViewModel.swift */,
-				6806B1DC2A53E08B00BCFA1E /* ViewController.swift */,
-				68F0ECA42A5D665E009082E7 /* NameCell.swift */,
-				68F0ECA52A5D665E009082E7 /* NameCell.xib */,
+				6810EE882A5EC3CE0075E0FF /* ViewController */,
 				6806B1DE2A53E08B00BCFA1E /* Main.storyboard */,
 				6806B1E12A53E08E00BCFA1E /* Assets.xcassets */,
 				6806B1E32A53E08E00BCFA1E /* LaunchScreen.storyboard */,
@@ -175,6 +191,33 @@
 				6806B2122A53E1DB00BCFA1E /* APIClientTestUsingMockURLProtocol.swift */,
 			);
 			path = APITests;
+			sourceTree = "<group>";
+		};
+		6810EE882A5EC3CE0075E0FF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68F0ECA42A5D665E009082E7 /* NameCell.swift */,
+				6810EE842A5E93920075E0FF /* CustomMessageView.swift */,
+				6810EE862A5E93A10075E0FF /* CustomMessageView.xib */,
+				68F0ECA52A5D665E009082E7 /* NameCell.xib */,
+				68F0ECA22A5D6471009082E7 /* ViewModel.swift */,
+				6806B1DC2A53E08B00BCFA1E /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6810EE892A5EC3FB0075E0FF /* ComplexCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6810EE8A2A5EC42D0075E0FF /* ComplexCollectionViewController.swift */,
+				6810EE8C2A5EC56C0075E0FF /* FirstSectionCell.swift */,
+				6810EE8D2A5EC56C0075E0FF /* FirstSectionCell.xib */,
+				6810EE902A5EC5860075E0FF /* SecondSectionCell.swift */,
+				6810EE912A5EC5860075E0FF /* SecondSectionCell.xib */,
+				6810EE942A5EC5920075E0FF /* ThirdSectionCell.swift */,
+				6810EE952A5EC5920075E0FF /* ThirdSectionCell.xib */,
+			);
+			path = ComplexCollectionView;
 			sourceTree = "<group>";
 		};
 		BDEF2D842E99024A38AA4D51 /* Pods */ = {
@@ -299,8 +342,12 @@
 			files = (
 				6806B1E52A53E08E00BCFA1E /* LaunchScreen.storyboard in Resources */,
 				6806B1E22A53E08E00BCFA1E /* Assets.xcassets in Resources */,
+				6810EE8F2A5EC56C0075E0FF /* FirstSectionCell.xib in Resources */,
+				6810EE932A5EC5860075E0FF /* SecondSectionCell.xib in Resources */,
 				68F0ECA72A5D665E009082E7 /* NameCell.xib in Resources */,
+				6810EE972A5EC5920075E0FF /* ThirdSectionCell.xib in Resources */,
 				6806B1E02A53E08B00BCFA1E /* Main.storyboard in Resources */,
+				6810EE872A5E93A10075E0FF /* CustomMessageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +443,13 @@
 			files = (
 				68F0ECA62A5D665E009082E7 /* NameCell.swift in Sources */,
 				68F0ECA32A5D6471009082E7 /* ViewModel.swift in Sources */,
+				6810EE962A5EC5920075E0FF /* ThirdSectionCell.swift in Sources */,
+				6810EE8E2A5EC56C0075E0FF /* FirstSectionCell.swift in Sources */,
+				6810EE852A5E93920075E0FF /* CustomMessageView.swift in Sources */,
+				6810EE8B2A5EC42D0075E0FF /* ComplexCollectionViewController.swift in Sources */,
 				6806B1DD2A53E08B00BCFA1E /* ViewController.swift in Sources */,
 				6806B1D92A53E08B00BCFA1E /* AppDelegate.swift in Sources */,
+				6810EE922A5EC5860075E0FF /* SecondSectionCell.swift in Sources */,
 				6806B2092A53E0AC00BCFA1E /* HTTPClient.swift in Sources */,
 				6806B1DB2A53E08B00BCFA1E /* SceneDelegate.swift in Sources */,
 			);

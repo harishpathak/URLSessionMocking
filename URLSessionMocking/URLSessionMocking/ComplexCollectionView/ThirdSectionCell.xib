@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ThirdSectionCell" customModule="URLSessionMocking" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="153" height="113"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="153" height="113"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bA2-n6-CGt">
+                        <rect key="frame" x="10" y="10" width="133" height="93"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="b9L-8m-uXI">
+                                <rect key="frame" x="10" y="11" width="113" height="71.666666666666671"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="b9L-8m-uXI" secondAttribute="trailing" constant="10" id="5Kq-wh-ISR"/>
+                            <constraint firstAttribute="bottom" secondItem="b9L-8m-uXI" secondAttribute="bottom" constant="10" id="9bm-w7-cWy"/>
+                            <constraint firstItem="b9L-8m-uXI" firstAttribute="top" secondItem="bA2-n6-CGt" secondAttribute="top" constant="10" id="hgS-ru-E5C"/>
+                            <constraint firstItem="b9L-8m-uXI" firstAttribute="leading" secondItem="bA2-n6-CGt" secondAttribute="leading" constant="10" id="x7e-G7-GGJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bA2-n6-CGt" secondAttribute="bottom" constant="10" id="93O-ff-P9L"/>
+                <constraint firstAttribute="trailing" secondItem="bA2-n6-CGt" secondAttribute="trailing" constant="10" id="FZq-PR-4kq"/>
+                <constraint firstItem="bA2-n6-CGt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="PMT-8d-6ea"/>
+                <constraint firstItem="bA2-n6-CGt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="TJ9-YP-G57"/>
+            </constraints>
+            <size key="customSize" width="153" height="113"/>
+            <point key="canvasLocation" x="75.572519083969468" y="41.901408450704224"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="moon.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
